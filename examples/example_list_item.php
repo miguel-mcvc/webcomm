@@ -104,7 +104,7 @@ if($_GET['code']) {
 	
 	// We call the post request to list a item
 	echo '<pre>';
-	print_r($meli->post('/items', $item, array('access_token' => $_SESSION['access_token'])));
+	print_r($meli->post('/items/', $item, array('access_token' => $_SESSION['access_token'])));
 	echo '</pre>';
 
 } else {
