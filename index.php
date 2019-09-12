@@ -7,7 +7,7 @@ $redirectUrl = $meli->getAuthUrl("https://webcomm.herokuapp.com/test.php",Meli::
 if($_GET['code']){
 echo '$_GET['code']';
 else{
-echo 'pasale perrouuu <br/>'
+echo 'pasale perrouuu <br/>';
 echo 'link: <a href="'.$redirectUrl.'">link de prueba</a>';
 }
 
