@@ -74,26 +74,6 @@ if(isset($_GET['code']) || isset($_SESSION['access_token'])) {
                 "value_name" => "4.7 pulgadas"
             ),
             array(
-                "id" => "TOUCH_SCREEN",
-                "value_id" => "242085"
-            ),
-            array(
-                "id" => "GPS",
-                "value_id" => "242085"
-            ),
-            array(
-                "id" => "OPERATING_SYSTEM",
-                "value_id" => "296859"
-            ),
-            array(
-                "id" => "OPERATING_SYSTEM_VERSION",
-                "value_id" => "iOS 10"
-            ),
-            array(
-                "id" => "DISPLAY_RESOLUTION",
-                "value_id" => "1920 x 1080"
-            ),
-            array(
                 "id" => "BATTERY_CAPACITY",
                 "value_name" => "3980 mAh"
             ),
