@@ -38,7 +38,7 @@ if(isset($_GET['code']) || isset($_SESSION['access_token'])) {
 	
 	$item = array(
 	"title" => "Item De Prueba - Por Favor, No Ofertar!",
-        "category_id" => "MLM257111",
+        "category_id" => "MLM1039",
         "price" => 10,
         "currency_id" => "MXN",
         "available_quantity" => 1,
