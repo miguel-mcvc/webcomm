@@ -38,7 +38,7 @@ if(isset($_GET['code']) || isset($_SESSION['access_token'])) {
 	
 	$item = array(
 	"title" => "Item De Prueba - Por Favor, No Ofertar!",
-        "category_id" => "MLM1039",
+        "category_id" => "MLM1042",
         "price" => 10,
         "currency_id" => "MXN",
         "available_quantity" => 1,
@@ -71,22 +71,14 @@ if(isset($_GET['code']) || isset($_SESSION['access_token'])) {
             ),
             array(
                 "id" => "SCREEN_SIZE",
-                "value_name" => "4.7 polegadas"
+                "value_name" => "4.7 pulgadas"
             ),
             array(
                 "id" => "TOUCH_SCREEN",
                 "value_id" => "242085"
             ),
             array(
-                "id" => "DIGITAL_CAMERA",
-                "value_id" => "242085"
-            ),
-            array(
                 "id" => "GPS",
-                "value_id" => "242085"
-            ),
-            array(
-                "id" => "MP3",
                 "value_id" => "242085"
             ),
             array(
