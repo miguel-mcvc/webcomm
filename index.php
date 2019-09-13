@@ -1,7 +1,7 @@
 <?php
 session_start();
-require '../Meli/meli.php';
-require '../configApp.php';
+require '/Meli/meli.php';
+require '/configApp.php';
 $meli = new Meli($appId, $secretKey);
 if(isset($_GET['code']) || isset($_SESSION['access_token'])) {
 	// If code exist and session is empty
